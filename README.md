@@ -11,7 +11,7 @@ This repository contains **load testing scripts** for evaluating web application
 ## **🚀 How to Use Each Tool**
 
 ### **1️⃣ JMeter**
-**Location**: `jmeter/test_plan.jmx`  
+**Location**: `test_plan.jmx`  
 **Steps**:
 1. Open **Apache JMeter** (`jmeter.bat` on Windows, `jmeter` on macOS/Linux).
 2. Load `test_plan.jmx` and run the test.
@@ -20,7 +20,7 @@ This repository contains **load testing scripts** for evaluating web application
 ---
 
 ### **2️⃣ Locust**
-**Location**: `locust/locustfile.py`  
+**Location**: `locustfile.py`  
 **Steps**:
 1. Install dependencies:  
    ```sh
@@ -39,7 +39,7 @@ This repository contains **load testing scripts** for evaluating web application
 ---
 
 ### **3️⃣ k6**
-**Location**: `k6/load_test.js`  
+**Location**: `load_test.js`  
 **Steps**:
 1. Install **k6** (if not installed):  
    ```sh
