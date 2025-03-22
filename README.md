@@ -24,11 +24,12 @@ This repository contains **load testing scripts** for evaluating web application
 **Steps**:
 1. Install dependencies:  
    ```sh
-   pip install -r locust/requirements.txt
+   pip install flask
+   pip install locust
    ```
 2. Start Flask API (if testing locally):  
    ```sh
-   python locust/app.py
+   python app.py
    ```
 3. Run Locust:  
    ```sh
@@ -48,7 +49,7 @@ This repository contains **load testing scripts** for evaluating web application
    ```
 2. Run the test:  
    ```sh
-   k6 run k6/load_test.js
+   k6 run load_test.js
    ```
 3. View results in the terminal.
 
